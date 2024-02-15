@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Poppins;
+    src:url(Poppins-Bold.ttf);
+    src:url(Poppins-SemiBold.ttf);
+    src: url(Poppins-Medium.ttf);
+}
+
+body {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, hsla(185, 64%, 67%, 0.3), hsla(343, 80%, 63%, 0.3))
+}
+
+#rps {
+    margin-top: 3rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: #601155;
+}
+
+button {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    margin: 1.5rem 0.5rem;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:active {
+    filter: brightness(1.2);
+}
+
+
+#choiceDisplay {
+    margin: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.choiceDisplay {
+    background: linear-gradient(to right, #ec537e 0%, #fdde57 100%);
+    border-radius: 2.5rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    padding: 0.2rem 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 4px 5px 5px;
+    width: 35rem;
+}
+
+#choiceDisplay2 {
+    background: linear-gradient(to right, #c44fb4 0%, #75d8e1 100%); 
+}
+
+#playerDisplay {
+    font-weight: 600;
+}
+
+#computerDisplay {
+    font-weight: 600;
+}
+
+#resultDisplay {
+    border-radius: 4rem;
+    padding: 0.2rem 2rem;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.resultDisplay {
+    background-color: transparent;
+    color: transparent;
+    user-select: none;
+}
+
+.scoreDisplay {
+    margin: 2rem;
+    margin-top: 0rem;
+    font-size: 2.2rem;
+    border-radius: 3rem;
+    display: flex;
+}
+
+.scoreDisplayEnd {
+    padding: 0.3rem 1.7rem;
+    margin: 2rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 4px 5px 5px;
+    color: hsl(0, 0%, 73%);
+}
+
+.scoreDisplayStart {
+    padding: 0.3rem 1.7rem;
+    margin: 2rem;
+    color: transparent;
+    background-color: transparent;
+    user-select: none;
+}
+
+#playerSpan {
+    font-weight: bold;
+    color:#75d8e1;
+}
+
+#computerSpan {
+    font-weight: bold;
+    color:#ec537e;
+}
+
+#btnR {
+    background-image: url(rock.PNG);
+}
+
+#btnP {
+    background-image: url(paper.PNG);
+}
+
+#btnS {
+    background-image: url(scissors.PNG);
+}
+
+.redText {
+    color: #ec537e
+}
+
+.yellowText {
+    color: #fdde57
+}
+
+.blueText {
+    color: #75d8e1
+}
